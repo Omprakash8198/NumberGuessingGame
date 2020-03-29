@@ -20,7 +20,7 @@ def select():
 
 def start():
     print('OK, lets play a game')
-    lower, upper = [x for x in input('type a number for lower and upper bound').split()]
+    lower, upper = [x for x in input('type a number for lower and upper bound separated by space').split()]
     if lower.isdigit():
         lower = int(lower)
     if upper.isdigit():
